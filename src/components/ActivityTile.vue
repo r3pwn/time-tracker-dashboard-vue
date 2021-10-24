@@ -1,7 +1,7 @@
 <template>
   <div :class="`tile tile-${activity.id}`">
     <div :class="`tile-background tile-${activity.id}-background`">
-      <img class="tile-icon" :src="`icons/icon-${activity.id}.svg`">
+      <img class="tile-icon" :src="`./icons/icon-${activity.id}.svg`">
     </div>
     <div class="tile-content">
       <div class="title-row">
@@ -9,7 +9,7 @@
           {{ activity.title }}
         </span>
         <button class="overflow-button">
-          <img :src="`icons/icon-ellipsis.svg`">
+          <img :src="`./icons/icon-ellipsis.svg`">
         </button>
       </div>
       <div class="current-time">

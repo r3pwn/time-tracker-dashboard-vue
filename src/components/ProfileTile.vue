@@ -1,7 +1,7 @@
 <template>
   <div class="profile-tile">
     <div class="profile-report">
-      <img class="profile-picture" :src="state.profileImage">
+      <img class="profile-picture" :src="`./${state.profileImage}`">
       <div class="profile-info">
         Report For
         <div class="profile-name">{{ state.name }}</div>

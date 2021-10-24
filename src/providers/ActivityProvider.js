@@ -1,4 +1,4 @@
-const TIME_DATA_PATH = "/time_data.json";
+const TIME_DATA_PATH = "./time_data.json";
 
 const ActivityProvider = {
     getActivities () {
